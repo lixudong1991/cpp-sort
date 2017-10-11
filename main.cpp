@@ -3,18 +3,18 @@
 #include"InsertSort.h"	
 #include"BubbleSort.h"
 using namespace std;
-
+#define ARRLEN 10
 int main()
 {
 	//Sort* sort = new InsertSort();
 	Sort *sort = new BubbleSort();
-	int arr[10] = {5,8,4,1,2,7,3,9,6,0};
+	int arr[ARRLEN] = {5,8,4,1,2,7,3,9,6,0};
 	for (int i : arr) 
 	{
 		cout << i<<"\40";
 	}
 	cout << endl;
-	sort->sort(arr, 10);
+	sort->sort(arr, ARRLEN);
 	for (int i : arr)
 	{
 		cout << i << "\40";
