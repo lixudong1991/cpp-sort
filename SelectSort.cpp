@@ -12,7 +12,7 @@ SelectSort::~SelectSort()
 }
 void SelectSort::sort(int array[], int length)
 {
-	for (size_t i = 0; i < length-1; i++)
+	for (int i = 0; i < length-1; i++)
 	{
 		int n = i;
 		int key = array[i];

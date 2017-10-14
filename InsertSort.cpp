@@ -12,7 +12,7 @@ InsertSort::~InsertSort()
 }
 void InsertSort::sort(int array[], int length)
 {
-	for (size_t i = 1; i < length; i++)
+	for (int i = 1; i < length; i++)
 	{
 		int key = array[i];
 		int j = i - 1;
